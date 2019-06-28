@@ -129,7 +129,7 @@ const register = async (ctx, next) => {
 const updateUserInfo = async (ctx, next) => {
   const req = ctx.request.body;
 
-  // 获取用户的 userId
+  // 获取用户的 user id
   const result = await User_col.updateOne({
     userId: req.userId
   }, req);
