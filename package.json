@@ -1,7 +1,7 @@
 {
   "name": "money-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "monny-back-end",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: No test specified\" && exit 1"
