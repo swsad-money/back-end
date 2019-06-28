@@ -1,0 +1,36 @@
+/*
+ * @Description: school collection 
+ */
+
+const mongoose = require('mongoose');
+
+const Schema = mongoose.Schema;
+const SchoolSchema = new Schema({
+  id: {
+    type: String,
+    unique: true,
+    require: true
+  },
+  name: {
+    type: String,
+    require: true
+  },
+  website: {
+    type: String
+  },
+  provinceId: {
+    type: String
+  },
+  level: {
+    type: String
+  },
+  abbreviation: {
+    type: String
+  },
+  city: {
+    type: String
+  },
+}, { collection: 'universities', versionKey: false});
+
+module.exports = mongoose.model('universities', SchoolSchema);
+
