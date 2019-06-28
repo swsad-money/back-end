@@ -3,7 +3,6 @@
  */
 
 
-// https://www.npmjs.com/package/bcrypt
 const bcrypt = require('bcrypt');
 
 const encrypt = async (password, saltTimes) => {

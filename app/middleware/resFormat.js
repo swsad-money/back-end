@@ -1,3 +1,7 @@
+/*
+ * @Description: format
+ */
+
 const format = async (ctx, next) => {
   const status = ctx.status;
 
