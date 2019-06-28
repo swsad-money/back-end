@@ -8,4 +8,4 @@ node app.js
 
 ## mongodb
 
-please run mongodb at default port.
+please run mongodb at default port:27017.
